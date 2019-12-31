@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.container{
+    display: flex;
+}
+nav{
+    padding: 0;
+    margin: 0;
+    width: 18%;
+    height: 1080px;
+    background: white;
+}
+.logo{
+    margin: 0em 2.8em;
+    display: flex;
+}
+
+#item1{
+    padding-top: 0.3em;
+    padding-right: 0.3em;
+    font-family: book antiqua;
+    color: #ff1b86;
+    font-size: 2.4em;
+    font-weight: 90;
+}
+
+#item2{
+    padding-top: 0.4em;
+    font-family:book antiqua;
+    font-style: italic;
+    color: black;
+    font-size: 2.3em;
+    font-weight: 90;
+}
+
+hr{
+    margin-top: 0.8em;
+    margin-left: 7%;
+    width: 83%;
+    background: #fdacaa;
+    border-top: #fdacaa;
+    
+    
+}
+.profile{
+    margin-left: 0.8em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: auto;
+    background:white;
+    height: 10%;
+    align-content: center;
+    display: flex;
+    
+}
+
+.dp{
+    width: 100px;
+    height: 100px;
+    background: #f5caca;
+    border-radius:50%;
+}
+
+.name{
+    font-family: Arial;
+    margin-top: 2em;
+    margin-left:0.4em;
+}
+
+.name h3{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+}
+
+.name h5{
+    font-size: 15px;
+    color: #555151;
+    font-weight: 400;
+}
+
+.tools{
+    padding-left: 1.5em;
+}
+ ul{
+    display: block;
+    list-style-type: none;
+
+}
+
+.category{
+    padding-left:.5em;
+    font-family: Arial;
+    font-size: 0.8em;
+    font-weight: 100;
+    color: #f58a8a;
+}
+
+ nav li{
+    padding: 0.7em;
+    background: white;
+}
+
+
+nav li img{
+    width: 1.3em;
+    margin-right:1em;
+    position: relative;
+}
+
+nav li p{
+    padding-top: 0.4em;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+nav li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+nav .tools:hover{
+    background-color: #fdacaa;
+}
+
+.active{
+    background: #ede0e0;
+}
+.contents{
+    width: 100%;
+    background-image: url('images/background.jpg');
+    background-size: 113% 60%;
+    background-position-y:4.6em;
+    background-repeat: no-repeat;
+  
+}
+
+.top{
+    max-width: inherit;
+    height: 6.88%;
+    background: linear-gradient(to top,#fbc5bc, #fea4a4);
+    
+}
+.main{
+    display: flex;
+}
+.queries {
+    margin-top: 0.4em;
+    margin-left: 10.6em;
+    width: 10em;
+    padding: 0.7em 1.4em;
+    background: #fea7a6;
+    border-radius: 15px;
+}
+
+.queries h2{
+    padding-left: 1.3em;
+    font-family: book antiqua;
+    font-style: italic;
+    color:#451717;
+    font-size: 1.4em;
+
+}
+
+.request{
+    margin-top: 0.4em;
+    margin-left: 3.1em;
+    width: 28em;
+    height: 560px;
+    background: #ede0e0;
+    border-radius: 20px;
+}
+
+.question{
+    display: flex;
+    width: 447px;
+    height: 40px;
+    background-color: white;
+    box-shadow:0px 6px 6px -6px gray;
+}
+
+.actions{
+    position: relative;
+    width: 300px;
+    margin-left: 82%;
+    
+}
+
+.actions a img{
+
+    padding-left: 0.1em;
+    width: 19px;
+}
+
+.request ul{
+    list-style-type: none;
+}
+
+.request ul li{
+    padding: 0.4em 0;
+}
+
+.request p {
+    padding-top: 0.8em;
+    position: absolute;
+    padding-left:1.5em;
+    font-size: 14px;
+}
+
+.request li:first-child{
+    padding-top: 1em;
+}
+.request .actions, p{
+    padding-top: 0.6em;
+}
+
+
+.apprentice{
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-top: 180px;
+    border: solid 20px #fea7a6;
+    width: 447px;
+    height: 200px;
+    background: white;
+   
+    
+}
+
+.apprentice h2{
+    color: #2c2c36;
+    font-family: tahoma;
+    font-size: 15px;
+    padding-top: 0.6em;
+    margin-left: 1.2em;
+    
+}
+
+.apprentice p{
+    margin-top: 0.7em;
+    color: #2c2c36;
+    font-family: tahoma;
+    margin-left: 2.3em;
+}
+
+.confirmations{
+    margin-left: 1em;
+    display: flex;
+    margin-top: 0.5em;
+    font-family: agency fb;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 150px;
+    height: 60px;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.confirmations  p{
+    padding: 0;
+    text-decoration: none;
+    text-decoration: none;
+    color: black;
+    margin-top: 0.3em;
+    margin-left: 1.4em;
+    widows: 100%;
+   
+}
+.buttons{
+    display: flex;
+}
+
+#moveLeft{
+    margin-left: 5.3em;
+}
+
+.agree:hover{
+    color: aliceblue;
+    background-color: #2242ad;
+   
+}
+
+.decline:hover{
+    background-color: #b41313;
+}
+.agree{
+    background-color: #76a2e5;
+}
+.decline{
+    background-color: #eb4d4d;
+}
